@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class CodesCracker {
+    public static void main(String[] args) {
+      int num1 = 9, num2 = 99, res;
+      
+      res = num1 + num2;
+      System.out.println("Sum of Addition = " + res);
+      res = num1 - num2;
+      System.out.println("Difference of Subtraction = " + res);
+      res = num1 * num2;
+      System.out.println("Product of Multiplication = " + res);
+      res = num1 / num2;
+      System.out.println("Quotient of Division = " + res);
